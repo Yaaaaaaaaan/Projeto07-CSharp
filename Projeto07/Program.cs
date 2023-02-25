@@ -21,8 +21,10 @@ namespace Projeto07
             }
             else
             {
-                Console.WriteLine("Aluno Reprovado, faltando apenas " + al.NR().ToString("F2", CultureInfo.InvariantCulture) + "Pontos");
+                Console.WriteLine("Aluno Reprovado, faltando apenas " + al.NR().ToString("F2", CultureInfo.InvariantCulture) + " pontos.");
             }
+
+            Console.ReadLine();
         }
     }
 }

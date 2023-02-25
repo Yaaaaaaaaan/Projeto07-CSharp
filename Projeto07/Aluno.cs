@@ -11,7 +11,7 @@
         }
         public bool Aprovado()
         {
-            if (NF() >= 60.0)
+            if (NF() >= 18.0)
             {
                 return true;
             }
@@ -28,7 +28,7 @@
                 }
                 else
                 {
-                    return 60.0 - NF();
+                    return 18.0 - NF();
                 }
             }
     }
